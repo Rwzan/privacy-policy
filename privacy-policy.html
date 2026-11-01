@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية – دواي | Dawai Privacy Policy</title>
+<style>
+  :root {
+    --bg: #f7f9f8; --surface: #ffffff; --text: #1d2b2a; --muted: #556866;
+    --accent: #0f6b66; --line: #d9e3e1; --ph-bg: #fff3c4; --ph-text: #5c4600;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101716; --surface: #172221; --text: #e6efed; --muted: #9bb1ae;
+      --accent: #5cc9c0; --line: #263634; --ph-bg: #4a3d0a; --ph-text: #ffe28a;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font-family: "Geeza Pro", "Segoe UI", Tahoma, "Noto Naskh Arabic", system-ui, sans-serif;
+    font-size: 1.0625rem; line-height: 1.9; }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  .langbar { display: flex; gap: .75rem; justify-content: center; padding: .75rem 1rem;
+    background: var(--surface); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 5; }
+  .langbar a { color: var(--accent); text-decoration: none; font-weight: 700;
+    padding: .25rem .9rem; border: 1.5px solid var(--accent); border-radius: 999px; }
+  .langbar a:hover, .langbar a:focus-visible { background: var(--accent); color: var(--surface); outline: none; }
+  section.policy { padding-top: 2.5rem; }
+  section.policy + section.policy { margin-top: 4rem; border-top: 2px solid var(--line); }
+  h1 { font-size: 2rem; line-height: 1.35; margin: 0 0 .25rem; }
+  .meta { color: var(--muted); margin: 0 0 2rem; font-size: .95rem; }
+  h2 { font-size: 1.25rem; margin: 2.25rem 0 .5rem; color: var(--accent);
+    padding-inline-start: .75rem; border-inline-start: 4px solid var(--accent); }
+  p, li { max-width: 40rem; }
+  ul { padding-inline-start: 1.4rem; }
+  li { margin: .25rem 0; }
+  .note { background: var(--surface); border: 1px solid var(--line);
+    border-inline-start: 4px solid var(--accent); padding: .75rem 1rem; border-radius: 6px; margin: 1rem 0; }
+  mark.ph { background: var(--ph-bg); color: var(--ph-text); padding: 0 .3em; border-radius: 3px; }
+  .en { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.7; }
+  a { color: var(--accent); }
+  :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<nav class="langbar" aria-label="Language / اللغة">
+  <a href="#ar" hreflang="ar">العربية</a>
+  <a href="#en" hreflang="en">English</a>
+</nav>
+
+<main class="wrap">
+
+<!-- ===================== ARABIC ===================== -->
+<section class="policy" id="ar" lang="ar" dir="rtl">
+  <h1>سياسة الخصوصية لتطبيق «دواي»</h1>
+  <p class="meta">آخر تحديث: 1 نوفمبر 2026</p>
+
+  <p>«دواي» (Dawai) تطبيق للآيفون يساعد المستفيد على تنظيم أدويته والتذكير بها، ويتيح لمقدّم الرعاية متابعة الالتزام بالجرعات. صُمّم التطبيق على مبدأ <strong>الخصوصية افتراضياً</strong>: لا حسابات، ولا خوادم، وبياناتكم تبقى على جهازكم.</p>
+  <p>المطوّر: فريق «دواي»: سديم الهلابي، روزان المفلحي، شيماء الحميضي، نوره المقحم، وجد وائل — للتواصل: <a href="mailto:wajdabdelhai@gmail.com" dir="ltr">wajdabdelhai@gmail.com</a>.</p>
+
+  <h2>1. ملخص سريع</h2>
+  <ul>
+    <li>لا يطلب التطبيق بريداً إلكترونياً ولا رقم جوال ولا كلمة مرور.</li>
+    <li>لا يُرسل التطبيق بياناتكم إلى أي خادم، ولا يتصل بالإنترنت لنقلها.</li>
+    <li>لا توجد تحليلات ولا تتبّع ولا إعلانات ولا مكتبات طرف ثالث.</li>
+    <li>نحن (المطوّر) لا نستطيع الاطلاع على بياناتكم لأنها لا تصلنا أصلاً.</li>
+  </ul>
+
+  <h2>2. البيانات التي يعالجها التطبيق على جهازكم</h2>
+  <ul>
+    <li><strong>الاسم الأول:</strong> تُدخلونه عند البدء ويُستخدم للعرض فقط، وليس للتوثيق.</li>
+    <li><strong>الدور:</strong> مستفيد أو مقدّم رعاية.</li>
+    <li><strong>مفتاح تشفير الهوية:</strong> يُنشأ مفتاح توقيع (P-256) على جهازكم ويُحفظ في سلسلة المفاتيح (Keychain)، ولا يغادر الجهاز. ويُستخدم معرّف مشتق منه (بصمة SHA-256 للمفتاح العام) لتمييز هويتكم داخل التطبيق.</li>
+    <li><strong>بيانات الأدوية:</strong> الاسم، الجرعة، الوقت، الأيام، التكرار، المدة، والتعليمات.</li>
+    <li><strong>صورة الدواي أو علبته (اختيارية):</strong> تختارونها عبر منتقي الصور في النظام، فلا يصل التطبيق إلا للصورة التي تختارونها وليس لكامل مكتبتكم.</li>
+    <li><strong>سجل الجرعات:</strong> هل تم تناولها في وقتها أو متأخرة أو فائتة، ويُستخدم لتقارير الالتزام الأسبوعية.</li>
+    <li><strong>بيانات الربط:</strong> دعوات الربط مع مقدّم الرعاية أو المستفيد وحالتها.</li>
+    <li><strong>إعدادات التطبيق:</strong> المظهر وتفضيل الإشعارات.</li>
+  </ul>
+  <p>تُخزَّن بيانات التطبيق محلياً على جهازكم (في UserDefaults)، والمفتاح في Keychain. <strong>لا نجمع</strong> الموقع الجغرافي ولا جهات الاتصال ولا البيانات المالية ولا معرّفات الإعلانات.</p>
+
+  <h2>3. كيف تُستخدم البيانات</h2>
+  <ul>
+    <li>جدولة إشعارات التذكير في موعد الجرعة، وتنبيه بالجرعة الفائتة بعد مهلة 30 دقيقة.</li>
+    <li>عرض قائمة أدوية اليوم وتأكيد الجرعات.</li>
+    <li>إعداد تقارير الالتزام الأسبوعية (النسبة، التفصيل اليومي، المقارنة بالأسبوع السابق).</li>
+    <li>إدارة الربط بين المستفيد ومقدّم الرعاية وصلاحيات كلٍّ منهما داخل التطبيق.</li>
+  </ul>
+  <p>لا نستخدم بياناتكم للإعلانات أو التسويق أو بناء ملفات تعريفية، ولا نبيعها.</p>
+
+  <h2>4. الإشعارات</h2>
+  <p>يستخدم التطبيق <strong>إشعارات محلية</strong> مجدولة على جهازكم، ولا تمرّ عبر أي خادم. يطلب التطبيق إذن الإشعارات من النظام، ويمكنكم إيقافه من إعدادات التطبيق أو من إعدادات iOS في أي وقت، لكن ذلك يمنع وصول التذكيرات.</p>
+
+  <h2>5. الربط مع مقدّم الرعاية ومشاركة البيانات</h2>
+  <p>يتم الربط بإنشاء رابط دعوة (<span dir="ltr">dawai://invite?token=…</span>) صالح <strong>15 دقيقة</strong>. أنتم من تقررون كيف ترسلونه (رسالة نصية أو تطبيق محادثة أو غيره) وإلى من، وتخضع تلك الوسيلة لسياسة خصوصية مزوّدها لا لسياستنا. ويمكن لأي طرف إلغاء دعوة معلّقة أو إنهاء الربط لاحقاً.</p>
+  <p>يوفّر التطبيق أيضاً مشاركة تقرير الالتزام عبر قائمة المشاركة في النظام؛ لا يُرسَل التقرير إلا عندما تختارون أنتم الوجهة.</p>
+  <div class="note">
+    <strong>شفافية حول النسخة الحالية:</strong> لا ينقل «دواي» حالياً أي بيانات بين جهازين، ولا يرسل تنبيهات إلى جهاز مقدّم الرعاية. وإذا أضفنا مستقبلاً مزايا مزامنة سحابية أو إشعارات بين الأجهزة، فسنحدّث هذه السياسة أولاً، وسنُعلمكم داخل التطبيق، ولن نفعّلها دون موافقتكم.
+  </div>
+  <p>خارج ما سبق، لا نشارك بياناتكم مع أي جهة، ولا نملك ما يمكن تسليمه للغير لأننا لا نحتفظ بشيء.</p>
+
+  <h2>6. الحماية</h2>
+  <p>يبقى المفتاح الخاص داخل Keychain ولا يغادر جهازكم، ولا يُنفَّذ أي إجراء لمقدّم الرعاية (كتقارير الالتزام أو حذف دواي) إلا ضمن علاقة ربط مفعّلة ومؤكَّدة. ولأن البيانات محلية، فأمانها مرتبط بأمان جهازكم، ولذلك ننصح بتفعيل رمز القفل وتحديث iOS.</p>
+
+  <h2>7. الاحتفاظ والحذف</h2>
+  <ul>
+    <li>تبقى البيانات على جهازكم ما دمتم تستخدمون التطبيق.</li>
+    <li><strong>حذف دواي محدد:</strong> من داخل التطبيق. وإذا كنتم مستفيدين مرتبطين بمقدّم رعاية، فقد يمرّ الحذف بطلب يوافق عليه مقدّم الرعاية أو يرفضه، لمنع الحذف غير المقصود.</li>
+    <li><strong>إعادة ضبط الهوية والبيانات:</strong> من الإعدادات ← تفاصيل الهوية ← إعادة ضبط.</li>
+    <li><strong>حذف التطبيق:</strong> يزيل بيانات الأدوية والسجل من جهازكم. وقد يبقى مفتاح الهوية في Keychain بحسب سلوك iOS، وهو لا يحتوي على أي معلومة شخصية، ويمكن إزالته بإعادة الضبط قبل الحذف.</li>
+  </ul>
+  <p>لا نحتفظ بنسخة من بياناتكم، فلا يوجد ما نحذفه من جانبنا.</p>
+
+  <h2 id="delete">8. حقوقكم</h2>
+  <p>بما أن البيانات على جهازكم وتحت تحكّمكم الكامل، فبإمكانكم الاطلاع عليها وتعديلها وحذفها وسحب أي إذن مباشرةً من التطبيق ومن إعدادات iOS. وبحسب النظام المعمول به (ومنه نظام حماية البيانات الشخصية في المملكة العربية السعودية) يحق لكم كذلك الاستفسار عن معالجة بياناتكم وتقديم شكوى للجهة المختصة. وإن كان لديكم أي طلب أو سؤال فراسلونا على <a href="mailto:wajdabdelhai@gmail.com" dir="ltr">wajdabdelhai@gmail.com</a>.</p>
+
+  <h2>9. خصوصية الأطفال</h2>
+  <p>لا يستهدف التطبيق الأطفال دون 13 سنة ولا نجمع بيانات أحد، وكل ما يُدخل يبقى على جهاز المستخدم. وننصح أولياء الأمور بإدارة التطبيق لأبنائهم.</p>
+
+  <h2>10. كبار السن وإعداد التطبيق نيابةً عنهم</h2>
+  <p>إذا أعدّ أحد أفراد الأسرة التطبيق لأحد كبار السن أو أضاف أدويته، فنوصي بأن يتم ذلك بعلم صاحب الأدوية وموافقته، وأن يكون صاحب القرار في الربط ومن يطّلع على تقاريره.</p>
+
+  <h2>11. إخلاء مسؤولية طبي</h2>
+  <p>«دواي» أداة تذكير وتنظيم، وليس بديلاً عن الطبيب أو الصيدلي، ولا يقدّم تشخيصاً أو نصيحة علاجية. لا تغيّروا الجرعات إلا بإرشاد مختص، وفي الطوارئ اتصلوا بالإسعاف (997 في السعودية). ولأن التذكيرات محلية، فقد لا تصل في حال تعطّل الجهاز أو تقييد الإشعارات أو وضع التركيز، فلا تعتمدوا عليها وحدها في الأدوية الحرجة.</p>
+
+  <h2>12. تغييرات السياسة</h2>
+  <p>قد نحدّث هذه السياسة، وسيظهر تاريخ آخر تحديث أعلاها، وسنُعلمكم داخل التطبيق بأي تغيير جوهري، خصوصاً إذا تغيّرت طريقة التعامل مع البيانات.</p>
+
+  <h2>13. التواصل</h2>
+  <p>فريق «دواي»: سديم الهلابي، روزان المفلحي، شيماء الحميضي، نوره المقحم، وجد وائل<br>
+  البريد الإلكتروني: <a href="mailto:wajdabdelhai@gmail.com" dir="ltr">wajdabdelhai@gmail.com</a></p>
+</section>
+
+<!-- ===================== ENGLISH ===================== -->
+<section class="policy en" id="en" lang="en" dir="ltr">
+  <h1>Dawai Privacy Policy</h1>
+  <p class="meta">Last updated: November 1, 2026</p>
+
+  <p>Dawai (دواي) is an iPhone app that helps a patient organize and be reminded of their medications, and lets a caregiver follow dose adherence. It is built <strong>private by default</strong>: no accounts, no servers, and your data stays on your device.</p>
+  <p>Developer: The Dawai team: Sadeem Bin Helabi, Rwzan Maflahi, Shaima Alhomaidhi, Nora Almuqhim, Wajd Wael — Contact: <a href="mailto:wajdabdelhai@gmail.com" dir="ltr">wajdabdelhai@gmail.com</a>.</p>
+
+  <h2>1. Summary</h2>
+  <ul>
+    <li>The App does not ask for an email, phone number or password.</li>
+    <li>The App does not send your data to any server.</li>
+    <li>There are no analytics, tracking, advertising or third-party libraries.</li>
+    <li>We (the developer) cannot see your data because it never reaches us.</li>
+  </ul>
+
+  <h2>2. Data the App Handles on Your Device</h2>
+  <ul>
+    <li><strong>First name:</strong> entered at setup and used for display only, not for authentication.</li>
+    <li><strong>Role:</strong> patient or caregiver.</li>
+    <li><strong>Identity key:</strong> a P-256 signing key is generated on your device and stored in the iOS Keychain; it never leaves the device. An identifier derived from it (a SHA-256 fingerprint of the public key) distinguishes your identity inside the App.</li>
+    <li><strong>Medication data:</strong> name, dosage, time, days, frequency, duration and instructions.</li>
+    <li><strong>Medication photo (optional):</strong> chosen through the system photo picker, so the App only receives the photo you select, not your library.</li>
+    <li><strong>Dose history:</strong> whether doses were on time, late or missed, used for weekly adherence reports.</li>
+    <li><strong>Linking data:</strong> invitations and relationships between patient and caregiver, and their status.</li>
+    <li><strong>App settings:</strong> appearance and notification preference.</li>
+  </ul>
+  <p>App data is stored locally on your device (UserDefaults) and the key in the Keychain. We <strong>do not collect</strong> location, contacts, financial data or advertising identifiers.</p>
+
+  <h2>3. How the Data Is Used</h2>
+  <ul>
+    <li>Scheduling reminder notifications at dose time, and a missed-dose alert after a 30-minute grace period.</li>
+    <li>Showing today’s medications and confirming doses.</li>
+    <li>Producing weekly adherence reports (percentage, daily breakdown, comparison with the previous week).</li>
+    <li>Managing the link between patient and caregiver and their permissions inside the App.</li>
+  </ul>
+  <p>We do not use your data for advertising, marketing or profiling, and we do not sell it.</p>
+
+  <h2>4. Notifications</h2>
+  <p>The App uses <strong>local notifications</strong> scheduled on your device; they do not pass through any server. The App requests notification permission from iOS. You can turn it off in the App’s settings or in iOS Settings at any time, but reminders will then not be delivered.</p>
+
+  <h2>5. Caregiver Linking and Sharing</h2>
+  <p>Linking works through an invitation link (<span dir="ltr">dawai://invite?token=…</span>) valid for <strong>15 minutes</strong>. You decide how and to whom you send it (a text message, a chat app, etc.), and that channel is governed by its provider’s own privacy policy, not ours. Either side can cancel a pending invitation or disconnect later.</p>
+  <p>The App also lets you share an adherence report through the iOS share sheet; a report is sent only where you choose to send it.</p>
+  <div class="note">
+    <strong>Transparency about the current version:</strong> Dawai does not currently transmit data between two devices or send alerts to a caregiver’s device. If we add cloud sync or cross-device notifications in the future, we will first update this policy, tell you in the App, and not enable them without your consent.
+  </div>
+  <p>Beyond the above, we share your data with no one, and we hold nothing that could be handed over because we retain no copy.</p>
+
+  <h2>6. Security</h2>
+  <p>The private key stays in the Keychain on your device. Caregiver actions (such as adherence reports or deleting a medication) require an active, confirmed relationship. Because data is local, its security depends on your device’s security, so we recommend enabling a passcode and keeping iOS updated.</p>
+
+  <h2>7. Retention and Deletion</h2>
+  <ul>
+    <li>Data remains on your device while you use the App.</li>
+    <li><strong>Delete a medication:</strong> from within the App. If you are a patient linked to a caregiver, deletion may go through a request the caregiver approves or rejects, to prevent accidental removal.</li>
+    <li><strong>Reset identity and data:</strong> Settings → Identity details → Reset.</li>
+    <li><strong>Delete the App:</strong> removes medication data and history from your device. The identity key may remain in the Keychain depending on iOS behavior; it contains no personal information, and you can remove it by resetting before deleting.</li>
+  </ul>
+  <p>We keep no copy of your data, so there is nothing for us to delete on our side.</p>
+
+  <h2 id="delete-en">8. Your Rights</h2>
+  <p>Because your data is on your device and under your full control, you can view, edit, delete it and withdraw any permission directly in the App and in iOS Settings. Under applicable law (including Saudi Arabia’s Personal Data Protection Law) you may also ask how your data is processed and lodge a complaint with the competent authority. For any request or question, email <a href="mailto:wajdabdelhai@gmail.com" dir="ltr">wajdabdelhai@gmail.com</a>.</p>
+
+  <h2>9. Children’s Privacy</h2>
+  <p>The App is not directed to children under 13 and we collect no one’s data; everything entered stays on the user’s device. Parents are encouraged to manage the App on behalf of their children.</p>
+
+  <h2>10. Older Adults and Setting Up on Their Behalf</h2>
+  <p>If a family member sets up the App or adds medications for an older adult, we recommend doing so with that person’s knowledge and consent, and letting them decide on linking and on who sees their reports.</p>
+
+  <h2>11. Medical Disclaimer</h2>
+  <p>Dawai is a reminder and organization tool, not a substitute for a doctor or pharmacist, and gives no diagnosis or treatment advice. Do not change doses without professional guidance; in an emergency call your local emergency number (997 in Saudi Arabia). Because reminders are local, they may not arrive if the device is off, notifications are restricted or a Focus mode is active, so do not rely on them alone for critical medication.</p>
+
+  <h2>12. Changes to This Policy</h2>
+  <p>We may update this policy. The updated date appears at the top, and we will notify you in the App of any material change, especially if the way data is handled changes.</p>
+
+  <h2>13. Contact</h2>
+  <p>The Dawai team: Sadeem Bin Helabi, Rwzan Maflahi, Shaima Alhomaidhi, Nora Almuqhim, Wajd Wael<br>
+  Email: <a href="mailto:wajdabdelhai@gmail.com" dir="ltr">wajdabdelhai@gmail.com</a></p>
+</section>
+
+</main>
+</body>
+</html>
